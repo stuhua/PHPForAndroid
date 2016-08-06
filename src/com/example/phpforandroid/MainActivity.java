@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		tv = getViewById(R.id.tv);
-		HttpUtils.doGetAsyn("http://10.0.3.2/android_connect/test.php", new CallBack() {
+		HttpUtils.doGetAsyn("http://10.0.3.2/android_connect/get_all_users.php", new CallBack() {
 
 			@Override
 			public void onRequestComplete(String result) {
