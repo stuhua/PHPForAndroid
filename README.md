@@ -18,6 +18,10 @@ WAMP：Windows下的Apache+Mysql/MariaDB+Perl/PHP/Python，一组常用来搭建
 
 2. get_all_users：select * from ...
 
+# 运行
+
+不知道WAMP抽什么风了，打不开，效果运行不了了！其实就是本地动态显示PHP从MySQL获取的个人信息
+
 # 总结
 
 会用PHP写一点简单的后台，是不是很牛逼！
